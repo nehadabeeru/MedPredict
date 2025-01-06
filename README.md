@@ -1,4 +1,4 @@
-# Hospital Readmission Prediction System
+# MedPredict : Hospital Readmission Prediction System
 
 ## Overview
 The Hospital Readmission Prediction System is a cutting-edge project developed to leverage advanced Large Language Models (LLMs) such as ClinicalBERT, PubMedBERT, Clinical BigBird, GPT-4 Turbo, and Clinical XLNet. Created as part of the DATA 298B Capstone Project at San Jose State University, this innovative system provides healthcare professionals with actionable insights to improve patient care and manage resources efficiently.
