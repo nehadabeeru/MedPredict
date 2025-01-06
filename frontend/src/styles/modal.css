@@ -1,0 +1,83 @@
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.modal-content p {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Modal Actions */
+.modal-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.confirm-btn,
+.cancel-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.confirm-btn {
+    background-color: #4CAF50; /* green for confirm */
+    color: #fff;
+}
+
+.cancel-btn {
+    background-color: #f44336; /* red for cancel */
+    color: #fff;
+}
+
+.confirm-btn:hover {
+    background-color: #45a049;
+}
+
+.cancel-btn:hover {
+    background-color: #d73833;
+}
+
+/* Button hover effects for Logout, Terminate, New Chat */
+.terminate-btn,
+.newChat-btn,
+.logout-btn {
+    transition: background-color 0.3s ease;
+}
+
+.terminate-btn:hover {
+    background-color: #d73833;
+}
+
+.newChat-btn:hover {
+    background-color: #4CAF50;
+}
+
+.logout-btn:hover {
+    background-color: #d73833;
+}
